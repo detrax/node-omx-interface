@@ -51,7 +51,7 @@ subtitlePath:            default: ""
 ``omx.getCurrentDuration();``
 
 ## Get position of current track/movie in seconds
-`omx.getCurrentPosition();``
+``omx.getCurrentPosition();``
 
 This function can be called many times per second without bothering the DBus since the position is extrapolated from the short term cached paying status.
 
